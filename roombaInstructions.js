@@ -1,7 +1,7 @@
 var fs = require("fs");
 
 // function describing the notation for specific directions and what the roomba should do when in these specific situations
-function runInstructions (cardinalDirection) {
+function runInstructions(cardinalDirection) {
   switch (cardinalDirection) {
     case 'N':
       currCoordinates[1] = parseInt(currCoordinates[1]) + 1;
@@ -21,7 +21,7 @@ function runInstructions (cardinalDirection) {
 }
 
 function dirtCheck(){
-  if(patchOfDirt.indexOf(currCoordinates.join(' ') > -1 )){
+  if(patchOfDirt.indexOf(currCoordinates.join(' ')) > -1 ){
     console.log(`Patch cleaned at position (${currCoordinates})`);
     cleanPatchCounter += 1;
     // to delete the patch of dirt that has already been cleaned by our roomba
@@ -63,7 +63,7 @@ patchOfDirt = fileContent;
 
 // lets loop through the cardinal directions
 for(var i = 0; i < cardinalDirections.length;i++){
-  if(touchingWall() === false){
+  if(touchingWall() == false){
     runInstructions(cardinalDirections[i]);
     dirtCheck();
   } else {
