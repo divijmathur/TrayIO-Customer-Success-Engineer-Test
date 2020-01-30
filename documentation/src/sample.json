@@ -1,0 +1,38 @@
+{
+    "UKSample": {
+        "id": "0065800000BwzJt",
+        "name": "Sample01",
+        "status": "Qualification",
+        "account": "Andrew Test",
+        "close_date": "2017-03-16",
+        "type": "New Business",
+        "country": "UK",
+        "owner_name": "Andrew",
+        "owner_email": "andrew@tray.io",
+        "amount": 4500
+    },
+    "USSample": {
+        "id": "0073800000CxyPl",
+        "name": "Sample02",
+        "status": "Qualification",
+        "account": "Arnold Palmer",
+        "close_date": "2017-03-16",
+        "type": "Repeat Customer",
+        "country": "US",
+        "owner_name": "Arnold",
+        "owner_email": "arnold@tray.io",
+        "amount": 85000
+    },
+    "EUSample": {
+        "id": "0045800000DxzQk",
+        "name": "Sample03",
+        "status": "Qualification",
+        "account": "Luca Brasi",
+        "close_date": "2017-03-16",
+        "type": "New Business",
+        "country": "EU",
+        "owner_name": "Luca",
+        "owner_email": "luca@tray.io",
+        "amount": 20000
+    }
+}
