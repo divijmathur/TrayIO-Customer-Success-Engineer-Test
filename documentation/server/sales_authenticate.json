@@ -1,0 +1,6 @@
+{
+    "USSales": "Please Insert Webhook URL for #sales-us opportunity",
+    "UKSales": "Please Insert Webhook URL for #sales-uk opportunity",
+    "EUSales": "Please Insert Webhook URL for #sales-eu opportunity",
+    "token": "Missing OAUTH token, please insert OAUTH token to POST MESSAGES to the relevant Slack channel"
+}

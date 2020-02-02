@@ -15,7 +15,7 @@ const createOpportunity = (opportunity) => {
         console.log(`Response code: ${res.status}`);
     })
     .catch((err)=> {
-        console.log(`There is an error ${err}`);
+        console.log(`There is an error: ${err}`);
     })
 };
 
