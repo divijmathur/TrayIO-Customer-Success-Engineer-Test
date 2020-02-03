@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Customer Success Engineer Test 
 Requirements
 The idea of this project is to show an automation strategy using the Tray.io platform. The objective of this project is to convert a CRM(Salesforce) 'Opportunity' into a webhook to a specific slack channel.
@@ -32,3 +33,6 @@ An OAuth token and webhook URLS must be created in the sales_authenticate.json, 
 Remember to configure write access for the workspace.
 
 When you run the program in a terminal, run the command npm run start from the Documentation directory. Once you see the message in the console Express server listening on port 3000!, navigate a browser window to localhost:3000 to load the client.
+=======
+
+>>>>>>> 4d7cb3f4562e88cbd0aa6b6ed8d4651157b5901f
