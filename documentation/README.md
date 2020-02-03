@@ -1,9 +1,11 @@
 
-Customer Success Engineer Test 
-Requirements
+#Customer Success Engineer Test 
+
+
+##Requirements
 The idea of this project is to show an automation strategy using the Tray.io platform. The objective of this project is to convert a CRM(Salesforce) 'Opportunity' into a webhook to a specific slack channel.
 
-Salesforce Opportunity
+##Salesforce Opportunity
 When a salesrep generates an opportunity in Salesforce, a webhook is sending a POST request with a JSON data object. This data object will include the relevant opportunity information in specific parts. For example an opportunity looks like what is displayed below
 is generated
 ```{
@@ -26,7 +28,7 @@ When you will need to send an external message to Slack, there are a few additio
 
 Once you have installed the Tray.io on your workspace, an authentication (OAuth) token is created to allow the direct posting. Please remember to grant permissions in the channel to receive these requests.
 
-Running the Integration
+##Running the Integration
 To run the Integration,
 An OAuth token and webhook URLS must be created in the sales_authenticate.json, which would allow the Tray.IO Integration to post to the respective Slack Channel. 
 
