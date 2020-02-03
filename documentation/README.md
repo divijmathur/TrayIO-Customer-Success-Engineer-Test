@@ -17,8 +17,8 @@ is generated
 "owner_name": "Andrew",
 "owner_email": "andrew@tray.io",
 "amount": 4500
-}```
-
+}
+```
 The goal of this project is to automate the process of notifying the team of an opportunity using a webhook POST request to Slack. Having the country value will help to send the opportunity to the appropriate slack channel.
 
 Integrating with Slack
