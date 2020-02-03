@@ -9,4 +9,4 @@ Driving Instructions (in the form of cardinal directions)
 To use this program make sure that you have downloaded NodeJS (http://www.nodejs.org).
 Clone this Roomba repository.
 After that you can run the program using the following command:
-node roombaInstructions.js
+```node roombaInstructions.js```
